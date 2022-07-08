@@ -7,8 +7,8 @@ DIR_TMP="$(mktemp -d)"
 
 ID=38455b62-c86b-47b3-8b26-e6061bf6a623
 AID=64
-WSPATH=/
-PORT=80
+WSPATH=/app
+PORT=443
 
 # Write V2Ray configuration
 cat << EOF > ${DIR_TMP}/heroku.json
